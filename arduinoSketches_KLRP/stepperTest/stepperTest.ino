@@ -23,7 +23,7 @@ void setup() {
 }
 int d=800;
 int num=0;
-int dist=64;
+int dist=32;
 void loop() {
   Serial.println("start");
 
