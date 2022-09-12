@@ -274,15 +274,15 @@ void setup() {
   testTurt.angStep=(PI/2);
 
   testL =new LSys("F");
-  //testL.addRule(new Rule("F","F+F-"));
+  testL.addRule(new Rule("F","F+F-"));
 
   //testL.addRule(new Rule("b","-bF+aFa+Fb-"));
   //testL.addRule(new Rule("b","+aF-bFb-Fa+"));
   
   //testL.addRule(new Rule("F","G+F+G"));
   //testL.addRule(new Rule("G","F-G-F"));
-  testL.addRule(new Rule("F","F+G"));
-  testL.addRule(new Rule("G","F-G"));
+  //testL.addRule(new Rule("F","F+G"));
+  //testL.addRule(new Rule("G","F-G"));
   
   
   //testL.addRule(new Rule("F","FF"));

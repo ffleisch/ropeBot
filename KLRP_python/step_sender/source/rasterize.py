@@ -187,8 +187,8 @@ if __name__=="__main__":
     my_rasterizer=Rasterizer(my_config,do_plot=True,do_draw=False)
 
     x,y=my_rasterizer.get_xy()
-    c=CirclePath(x+0,y+0,x+100,y+100,x+0,y+100)
-    my_rasterizer.draw_segment(c)
-    #plot_csv_line_list("path_files/path.csv",my_rasterizer,(0,0),.5)
+    #c=CirclePath(x+0,y+0,x+100,y+100,x+0,y+100)
+    #my_rasterizer.draw_segment(c)
+    plot_csv_line_list("../path_files/path_armstrong_fine.csv",my_rasterizer,(0,0),.4)
 
     plt.show()
